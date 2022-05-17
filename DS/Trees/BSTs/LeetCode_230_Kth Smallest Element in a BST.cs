@@ -5,6 +5,13 @@
     NeetCode Solution:
     Uses recursive traversal of tree.
     https://www.youtube.com/watch?v=5LUXSvjmGCw
+
+    First:
+        I thought of only traversing a left-skwed tree result should contain a the Kth element.
+        This is a wrong assumption. Second or third smallest element can be found in the right subtree 3ady y3ny.
+        Think of a BST of only a left child and the remaining elements at the right subtree.
+    Second:
+        Solution key is to think of inorder traversal because it results in an ordered list of BST.
 */
 
 /**
